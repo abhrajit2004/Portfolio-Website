@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+*{
+  scroll-behavior: smooth;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,11 +28,60 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
+
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.icon{
+  transition: all 0.3s ease;
+}
+
+.github-icon:hover{
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  filter: brightness(1.5); /* Increase brightness to simulate the hover effect */
+}
+
+.twitter-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon */
+  filter: drop-shadow(0 0 5px #1DA1F2); /* Apply a blue glow matching Twitter's color */
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon */
+  filter: drop-shadow(0 0 5px #0077B5); /* Apply a blue glow matching LinkedIn's color */
+}
+
+.borderline{
+  background: linear-gradient(violet, skyblue);
+}
+
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Dark background for the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Dark gray color for the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 3px solid #1a1a1a; /* Match the track background for a seamless look */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #333 #1a1a1a; /* Thumb color and track color */
+}
+
+html {
+  scrollbar-color: #333 #1a1a1a; /* Thumb color and track color */
+  scrollbar-width: thin; /* Thin scrollbar for Firefox */
 }
