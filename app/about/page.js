@@ -2,11 +2,14 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Image from 'next/image'
+import CursorAnimation from '../components/CursorAnimation'
 
 const page = () => {
   return (
     <>
+      <CursorAnimation />
       <Navbar />
+      
       <div className="dm-sans p-8 mx-24 flex flex-col gap-6 w-[40vw]">
         <h2 className='text-3xl font-bold'>Work Experience</h2>
         <div className="cards flex flex-col gap-4">

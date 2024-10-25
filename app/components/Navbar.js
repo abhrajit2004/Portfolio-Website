@@ -5,7 +5,10 @@ import Link from 'next/link'
 const Navbar = () => {
     return (
         <div>
-            <nav>
+            {/* <div className="announcement bg-black min-w-screen dm-sans text-white flex justify-center items-center">
+                
+            </div> */}
+            <nav className=''>
                 <ul className='flex justify-end items-center gap-14 py-6 mr-10 dm-sans text-gray-400'>
                     <Link href={"/"}><li>Home</li></Link>
                     <Link href={"/about"}><li>About</li></Link>
