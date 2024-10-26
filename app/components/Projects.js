@@ -42,7 +42,7 @@ const projectData = [
     description: 'This is a hackathon group project which takes you to space and gives you overview of exoplanets with user-friendly design and fun quizzes.',
     techStack: 'React, Tailwind CSS, SCSS, Express.js',
     liveLink: 'https://nasa-space-apps-exoplanet-exploration-bdmi.vercel.app',
-    codeLink: 'https://github.com/abhrajit2004/NASA-Space-Apps-Exoplanet-Exploration'
+    codeLink: 'https://github.com/5h0ov/NASA-Space-Apps-Exoplanet-Exploration'
   },
   {
     logo: '/interview.png',
