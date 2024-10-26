@@ -13,7 +13,7 @@ const Intro = () => {
         <>
             <CursorAnimation />
 
-            <section className='flex justify-center items-center gap-28 min-h-[80vh]'>
+            <section className='flex flex-col sm:flex-row justify-center items-center gap-28 min-h-[80vh]'>
                 {/* Animated Text Section */}
                 <motion.h1 
                     initial={{ opacity: 0, y: -50 }}

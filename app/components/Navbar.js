@@ -5,11 +5,14 @@ import Link from 'next/link'
 const Navbar = () => {
     return (
         <div>
-            {/* <div className="announcement bg-black min-w-screen dm-sans text-white flex justify-center items-center">
-                
+            {/* <div className="announcement bg-white min-w-screen dm-sans text-black flex justify-center items-center">
+                Announcements
             </div> */}
+             {/* gap: 30px;
+    font-size: 13px;
+    flex-wrap: wrap; */}
             <nav className=''>
-                <ul className='flex justify-end items-center gap-14 py-6 mr-10 dm-sans text-gray-400'>
+                <ul className='flex justify-end items-center gap-[30px] flex-wrap text-[13px] md:text-base md:gap-14 py-6 mr-10 dm-sans text-gray-400'>
                     <Link href={"/"}><li>Home</li></Link>
                     <Link href={"/about"}><li>About</li></Link>
                     <Link href={"#techstacks"}><li>Tech Stacks</li></Link>
