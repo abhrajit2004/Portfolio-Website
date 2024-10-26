@@ -31,7 +31,7 @@ const projectData = [
   {
     logo: '/buymechai.png',
     title: 'Patreon Clone',
-    description: 'This is a crowdfunding website where you can pay money to your favorite creator as appreciation and get their projects funded.',
+    description: 'This project is a crowdfunding website where you can pay money to your favorite creator as appreciation and get their projects funded.',
     techStack: 'Nextjs14, NextAuth, Tailwind CSS, MongoDB',
     liveLink: '',
     codeLink: 'https://github.com/abhrajit2004/Buy-Me-A-Chai'
@@ -39,7 +39,7 @@ const projectData = [
   {
     logo: '/exoplanet.png',
     title: 'Eduexo',
-    description: 'This is a web app which takes you to space and gives you overview of exoplanets with user-friendly design and fun quizzes.',
+    description: 'This is a hackathon group project which takes you to space and gives you overview of exoplanets with user-friendly design and fun quizzes.',
     techStack: 'React, Tailwind CSS, SCSS, Express.js',
     liveLink: 'https://nasa-space-apps-exoplanet-exploration-bdmi.vercel.app',
     codeLink: 'https://github.com/abhrajit2004/NASA-Space-Apps-Exoplanet-Exploration'
@@ -47,12 +47,11 @@ const projectData = [
   {
     logo: '/interview.png',
     title: 'Interview.io',
-    description: 'This is a virtual platform designed to help users improve their interview skills through a range of interactive and AI-driven features.',
+    description: 'This is a hackathon group project designed to help users improve their interview skills through a range of interactive and AI-driven features.',
     techStack: 'React, Tailwind CSS, SCSS, Express.js, Socket.io, MongoDB',
     liveLink: 'https://interview-io-six.vercel.app',
     codeLink: 'https://github.com/abhrajit2004/Interview.io'
   },
-  // Add more projects as needed
 ];
 
 const containerVariants = {
